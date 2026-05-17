@@ -10,7 +10,7 @@
 \usepackage{enumitem}
 \usepackage{amssymb}
 \usepackage{fontawesome5}
-\usepackage{hyperref}
+\usepackage[hidelinks]{hyperref}
 \usepackage{titlesec}
 \usepackage{parskip}
 \usepackage{lmodern}
@@ -62,12 +62,35 @@ developer groups.
 
 \section{EXPERIENCE}
 \vspace{0.5em}
+
+\textbf{Oblien} \hfill \textbf{Aug 2025 -- Present} \\
+\textit{Founding Engineer \textbar{} Part-time Remote}
+\begin{itemize}[leftmargin=1.5em, nosep, itemsep=0.15em]
+ \item Founding engineer at \href{https://oblien.com/}{\textbf{Oblien}}, building a programmable infrastructure layer for autonomous agents using Firecracker microVMs for secure, isolated code execution and rapid environment provisioning.
+  \item Built privacy-focused infrastructure with encrypted secrets, sandbox isolation, and strict data-ownership boundaries.
+  \item Built a sandboxed execution platform using Firecracker microVMs to deploy and isolate agent-generated applications, ensuring secure multi-tenant execution and rapid provisioning.
+  
+    \item Designed and implemented backend systems powering \href{https://reflx.me/}{\textbf{Reflx}}, a platform that creates AI-based digital clones from users' public presence.
+
+  \item Built profile ingestion and processing pipelines to aggregate user data, extract tone/personality signals, and generate structured representations for AI agents.
+
+  \item Implemented real-time interaction systems enabling users to communicate with their clones, including low-latency messaging, session handling, and stateful conversations.
+
+\end{itemize}
+
+
+
 \textbf{Medica Scope} \hfill \textbf{Jul 2025 -- Present} \\
 \textit{Backend Engineer \textbar{} Full-time Hybrid}
 \begin{itemize}[leftmargin=1.5em, nosep, itemsep=0.1em]
   \item Developed and maintained backend services for \href{https://medicaacademy.com/}{\textbf{Medica Academy}}, an online medical education platform.
+  \item Built a multi-tenant SaaS Learning Management System with microservices architecture (.NET 10.0, RabbitMQ, Redis, Firebase) handling 70+ domain services with full tenant isolation.
+  \item Implemented event-driven communication using RabbitMQ, Redis caching/rate limiting, and Firebase Cloud Messaging for push notifications.
+  \item Developed comprehensive billing system with fee plans, invoices, payment tracking, and ZATCA e-invoicing compliance for Saudi tax regulations.
+  \item Designed dual-database strategy for tenant data separation and auto-audit system with soft-delete pattern.
   \item Integrated the Paymob payment gateway and VdoCipher for secure video streaming and content protection.
-  \item Optimized database queries and API endpoints, reducing average response time by 15\%.
+\item Optimized database queries and API endpoints, reducing average response time by 15\% and improving overall system throughput under concurrent load.
+\item Designed and implemented a Retrieval-Augmented Generation (RAG) system for student inquiry document verification using embeddings and semantic search, reducing manual verification effort and improving response accuracy.
 \end{itemize}
 
 
@@ -75,7 +98,8 @@ developer groups.
 \textbf{Onvo} \hfill \textbf{May 2024 -- Jul 2025} \\
 \textit{Software Engineer \textbar{} Full-time, Remote}
 \begin{itemize}[leftmargin=1.5em, nosep, itemsep=0.1em]
-  \item Reworked the backend from PHP to Express.js, reducing load times by 20\% and improving system stability.
+  \item Reworked the backend of \href{https://onvo.me/}{\textbf{Onvo}} from PHP to Express.js, reducing load times by 20\% and improving system stability.
+   \item Built and scaled a large Q/A platform serving 150{,}000+ users with real-time interactions and high concurrency support.
   \item Led the launch of Airwave, a platform for streaming podcasts and music, which attracted more than 10,000 users in the first week.
   \item Secured the backend to prevent DoS and XSS attacks, ensuring a more resilient and secure application.
 \end{itemize}
@@ -158,12 +182,16 @@ developer groups.
 \begin{itemize}[leftmargin=1.2em, nosep, itemsep=0.3em]
   \item \textbf{Difference Between Cluster and Non-Cluster Index} — \href{https://modev.me/blog/difference-between-cluster-and-non-cluster-index}{modev.me/cluster-vs-noncluster}
   \item \textbf{3 Ways to Build Custom Middleware in ASP.NET Core} — \href{https://modev.me/blog/3-ways-to-build-custom-middleware-in-aspnet-core}{modev.me/aspnet-middleware}
+ \item \textbf{Nginx: Request Flow } — \href{https://modev.me/blog/nginx-deep-dive-architecture-configuration-production-patterns}{modev.me/nginx}
   \item \textbf{Boxing and Unboxing in C\#} — \href{https://modev.me/blog/boxing-and-unboxing-in-csharp}{modev.me/boxing}
   \item \textbf{SimuKernel: OS Concepts Explained} — \href{https://modev.me/blog/simukernel-operating-system-concepts}{modev.me/simukernel}
-\end{itemize}
+    \item \textbf{OFFSET vs Cursor Pagination
+} — \href{https://modev.me/blog/pagination-strategies-offset-vs-cursor}{modev.me/pagination}
 
 \end{itemize}
 
+\end{itemize}
 
 
-\end{document}
+
+\end{document}add in medica 
